@@ -10,52 +10,51 @@
 </head>
 <body>
   <div class="container">
-    <div class="column">
+   
   <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
     <fieldset class="border p-2">
       <legend class="w-auto">
         Personal Information:
       </legend>
-      <div class="row col-xl-12 col-sm-12">
-      <div class="col-xl-8 col-sm-6">
-        <label for="inputEmail4">Surname:</label>
-        <input type="text" class="form-control" id="inputEmail4" placeholder="Фамилия">
-      </div>
-      <div class="col-xl-4 col-sm-6">
+      <div class="row">
+        <div class="col-lg-8 col-sm-6">
+          <label for="inputEmail4">Surname:</label>
+          <input type="text" class="form-control" id="inputEmail4" placeholder="Фамилия">
+        </div>
+    
+      <div class="col-lg-4 col-sm-6">
         <label for="inputEmail5">Name:</label>
         <input type="text" class="form-control" id="inputEmail5" placeholder="Имя">
       </div>
-    </div>
-    <div class="row col-xl-12 col-sm-12">
-      <div class="col-xl-12 col-sm-12">
+      <div class="col-lg-12 col-sm-12">
         <label for="inputNumber">How old are you?:</label>
         <input type="number" class="form-control" min="1" max="100" name="years" id="inputNumber">
       </div>
-    </div>
-    <div class="row col-xl-12">
-      <div class="col-xl-6">
+      <div class="col-lg-6 offset-lg-2 offset-sm-3 col-sm-6">
         <label for="inputNumber">Full date of birth:</label>
         <input type="date" name="birth" class="form-control">
       </div>
     </div>
-      <div class="form-group form-check">
+    <div class="col-lg-6 offset-lg-2 offset-sm-3 col-sm-6">
+        <div class="form-group form-check">
+          <input type="checkbox" class="input-form-check" id="exampleCheck1">
         <label class="label-form-check" for="exampleCheck1">I accept the terms of the agreement</label>
-        <input type="checkbox" class="input-form-check" id="exampleCheck1">
-      </div>
+        </div>
+    </div>
     </fieldset>
     <br>
     <fieldset class="border p-2">
       <legend class="w-auto">
         Registration
       </legend>
-      <div class="row col-xl-12 col-sm-12">
-        <div class="col-xl-6 col-sm-6">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6">
           <div class="form-group">
             <label for="exampleFormControlInput1">E-mail</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
           </div>
         </div>
-        <div class="col-xl-6 col-sm-6">
+        <div class="col-lg-6 col-sm-6">
           <div class="form-group">
             <label for="exampleInputPassword1">Password</label>
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
@@ -68,18 +67,16 @@
       <legend class="w-auto">
         An interesting fact about you!
       </legend>
-      <div class="row col-xl-12 col-sm-12">
-        
-        
+      <div class="row">
         <br>
-        <div class="col-xl-2 col-sm-6">
-        <div class="form-check">
-            <legend class="col-form-label pt-0">Do you love cats?</legend>
-          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-          <label class="form-check-label" for="exampleRadios1">
-            Yes
-          </label>
-        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="form-check">
+              <legend class="col-form-label">Do you love cats?</legend>
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+              Yes
+            </label>
+          </div>
         <div class="form-check">
           <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
           <label class="form-check-label" for="exampleRadios2">
@@ -87,72 +84,66 @@
           </label>
         </div>
       </div>
-      <div class="col-xl-4 col-sm-6">
+      <div class="col-lg-4 col-sm-6">
         <div class="form-group">
-          <label for="example-color-input" class="col-form-label row">What is your favorite color?</label>
-          <div class="col-6">
+          <label for="example-color-input" class="col-form-label">What is your favorite color?</label>
+          
             <input class="form-control" type="color" value="#563d7c" id="example-color-input">
-          </div>
+          
         </div>
       </div>
-      <div class="col-xl-4">
-        <div class="form-group row">
+      <div class="col-lg-4">
+        <div class="form-group">
           <label for="example-time-input" class="col-form-label">What time do you go to bed?</label>
-          <div class="col-6">
+          
             <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+          
+        </div>
+      </div>
+    
+   
+        <div class="col-lg-4 col-sm-6">
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">What your favorite brand of cars?</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option value="BMW">
+                BMW
+              </option>
+              <option value="Audi">
+                Audi
+              </option>
+              <option value="Lada">
+                Lada
+              </option>
+            </select>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="row col-xl-12 col-sm-12">
-        <div class="col-xl-4 col-sm-6">
-        <div class="form-group">
-          <label for="exampleFormControlSelect1">What your favorite brand of cars?</label>
-          <select class="form-control" id="exampleFormControlSelect1">
-            <option value="BMW">
-              BMW
-            </option>
-            <option value="Audi">
-              Audi
-            </option>
-            <option value="Lada">
-              Lada
-            </option>
-          </select>
+        <div class="col-lg-4 col-sm-6">
+          <div class="form-group">
+            <label for="formControlRange">How do you rate our work?</label>
+            <input type="range" class="form-control-range" id="formControlRange">
+          </div>
         </div>
-        </div>
-        <div class="col-xl-4 col-sm-6">
-        <div class="form-group">
-          <label for="formControlRange">How do you rate our work?</label>
-          <input type="range" class="form-control-range" id="formControlRange">
-        </div>
-      </div>
     <br>
-    
-    <div class="col-xl-4 col-sm-6">
-    <div class="form-group">
-      <label for="exampleFormControlTextarea1">Your comments:</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Comments</textarea>
+    <div class="col-lg-4 col-sm-6">
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Your comments:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Comments</textarea>
+      </div>
     </div>
   </div>
-  </div>
- 
   </fieldset>
     <br>
-  
-  
-    <div class="row col-xl-12">
-    <div class="col-xl-4">
-      <button type="submit" class="btn btn-primary">Submit</button>
+    <div class="row justify-content-end">
+        <div class="col-lg-2">
+          <button type="submit" class="btn btn-primary btn-block">Submit</button>
+        </div>
+        <div class="col-lg-2">
+          <button type="reset" class="btn btn-primary btn-block">Reset</button>
+        </div>
     </div>
-    <div class="col-xl-8">
-      <button type="reset" class="btn btn-primary">Reset</button>
-    </div>
-    </div>
- 
-
   </form>
-</div>
+
 </div>
 </body>
 </html>
