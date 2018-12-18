@@ -29,57 +29,57 @@
       </h1>
     </div>
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
-      <fieldset class="border p-2">
+      <fieldset class="border p-2 rounded">
         <legend class="w-auto">
           Personal Information:
         </legend>
         <div class="row">
           <div class="col-lg-8 col-sm-6">
-            <label for="inputEmail4">Surname:</label>
-            <input type="text" class="form-control" id="inputEmail4" placeholder="Фамилия" required>
+            <label for="last-name">Surname:</label>
+            <input type="text" class="form-control shadow-lg p-3 mb-5 bg-white rounded" id="last-name" placeholder="Фамилия" required>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <label for="inputEmail5">Name:</label>
-            <input type="text" class="form-control" id="inputEmail5" placeholder="Имя" required>
+            <label for="first-name">Name:</label>
+            <input type="text" class="form-control shadow-lg p-3 mb-5 bg-white rounded" id="first-name" placeholder="Имя" required>
           </div>
           <div class="col-lg-12 col-sm-12">
-            <label for="inputNumber">How old are you?:</label>
-            <input type="number" class="form-control" min="1" max="100" name="years" id="inputNumber" required>
+            <label for="input-age">How old are you?:</label>
+            <input type="number" class="form-control shadow-lg p-3 mb-5 bg-white rounded" min="1" max="100" name="years" id="input-age" required>
           </div>
           <div class="col-lg-6 offset-lg-2 offset-sm-3 col-sm-6">
-            <label for="inputNumber">Full date of birth:</label>
-            <input type="date" name="birth" class="form-control">
+            <label for="input-birthday">Full date of birth:</label>
+            <input type="date" name="birth" class="form-control shadow-lg p-3 mb-5 bg-white rounded" id="input-birthday">
           </div>
         </div>
         <div class="col-lg-6 offset-lg-2 offset-sm-3 col-sm-6">
           <div class="form-group form-check">
-            <input type="checkbox" class="input-form-check" id="exampleCheck1" required>
-            <label class="label-form-check" for="exampleCheck1">I accept the terms of the agreement</label>
+            <input type="checkbox" class="input-form-check" id="input-check-accept" required>
+            <label class="label-form-check" for="input-check-accept">I accept the terms of the agreement</label>
           </div>
         </div>
       </fieldset>
       <br>
-      <fieldset class="border p-2">
+      <fieldset class="border p-2 rounded">
         <legend class="w-auto">
           Registration
         </legend>
         <div class="row">
           <div class="col-lg-6 col-sm-6">
             <div class="form-group">
-              <label for="exampleFormControlInput1">E-mail</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+              <label for="input-email">E-mail</label>
+              <input type="email" class="form-control shadow-lg p-3 mb-5 bg-white rounded" id="input-email" placeholder="name@example.com" required>
             </div>
           </div>
           <div class="col-lg-6 col-sm-6">
             <div class="form-group">
-              <label for="exampleInputPassword1">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
+              <label for="input-password">Password</label>
+              <input type="password" class="form-control shadow-lg p-3 mb-5 bg-white rounded" id="input-password" placeholder="Password" required>
             </div>
           </div>
         </div>
       </fieldset>
       <br>
-      <fieldset class="border p-2">
+      <fieldset class="border p-2 rounded">
         <legend class="w-auto">
           An interesting fact about you!
         </legend>
@@ -88,34 +88,34 @@
           <div class="col-lg-4 col-sm-6">
             <div class="form-check">
               <legend class="col-form-label">Do you love cats?</legend>
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-              <label class="form-check-label" for="exampleRadios1">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="input-check-yes" value="option1" checked>
+              <label class="form-check-label" for="input-check-yes">
                 Yes
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-              <label class="form-check-label" for="exampleRadios2">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="input-check-no" value="option2">
+              <label class="form-check-label" for="input-check-no">
                 No
               </label>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
             <div class="form-group">
-              <label for="example-color-input" class="col-form-label">What is your favorite color?</label>
-              <input class="form-control" type="color" value="#563d7c" id="example-color-input">
+              <label for="input-color" class="col-form-label">What is your favorite color?</label>
+              <input class="form-control shadow-lg p-3 mb-5 bg-white rounded" type="color" value="#563d7c" id="input-color">
             </div>
           </div>
           <div class="col-lg-4">
             <div class="form-group">
-              <label for="example-time-input" class="col-form-label">What time do you go to bed?</label>
-              <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+              <label for="input-time-sleep" class="col-form-label">What time do you go to bed?</label>
+              <input class="form-control shadow-lg p-3 mb-5 bg-white rounded" type="time" value="13:45:00" id="input-time-sleep">
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
             <div class="form-group">
-              <label for="exampleFormControlSelect1">What your favorite brand of cars?</label>
-              <select class="form-control" id="exampleFormControlSelect1">
+              <label for="input-brand-cars">What your favorite brand of cars?</label>
+              <select class="form-control shadow-lg p-3 mb-5 bg-white rounded" id="input-brand-cars">
                 <option value="BMW">
                   BMW
                 </option>
@@ -130,15 +130,15 @@
           </div>
           <div class="col-lg-4 col-sm-6">
             <div class="form-group">
-              <label for="formControlRange">How do you rate our work?</label>
-              <input type="range" class="form-control-range" id="formControlRange">
+              <label for="input-job-evaluation">How do you rate our work?</label>
+              <input type="range" class="form-control-range" id="input-job-evaluation">
             </div>
           </div>
           <br>
           <div class="col-lg-4 col-sm-6">
             <div class="form-group">
-              <label for="exampleFormControlTextarea1">Your comments:</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Comments</textarea>
+              <label for="textarea-place-comments">Your comments:</label>
+              <textarea class="form-control shadow-lg p-3 mb-5 bg-white rounded" id="textarea-place-comments" rows="3">Comments</textarea>
             </div>
           </div>
         </div>
